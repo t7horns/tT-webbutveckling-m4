@@ -1,4 +1,6 @@
-// placeholder presentation
+// Static comparison of an age variable, utilizing a nested if-conditionedw-flowchart for age groups. 
+// Model is akin to typical process of elimination thinking 
+// (and probably more useful in more complex assingments)
 "use strict";
 
 let age = 19;
