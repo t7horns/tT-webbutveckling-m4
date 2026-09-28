@@ -14,3 +14,17 @@ for (number; number <= 20; number++) {
 }
 
 console.log("Then print only even numbers")
+
+
+for (number; number <= 20; number++) {
+    if (number % 2 == 1) { // If the number has modulo when divided by two, it is not an even number.
+     continue;             // Therefore, continue to next loop
+    }
+    
+    console.log(number)     // Therefore we can ensure only even numbers get printed.
+    
+    if (number == 20){
+        number = 1;
+        break;
+    }
+}
