@@ -10,3 +10,11 @@ class book {
     }
 }
 
+function presentBook(book) {
+    let output = `\nTitel: ${book.title}\nFörfattare: ${book.author}\nUtgivningsår: ${book.publishingYear}`;
+    return output;
+}
+
+new hobbit = book("The Hobbit", "J.R.R Tolkien", "1937");
+
+presentBook(hobbit);
