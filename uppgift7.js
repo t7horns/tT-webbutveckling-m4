@@ -8,8 +8,8 @@ function calculateArraySum(inputArray) {
         let sum = 0;                    // Startvärde på number behövs, annars misslyckas uträkning (undefined + int)
         
     for (let value of inputArray) {
-        if (!Number.isNumber(value)) {  // Om ett värde inte är av datatyp nummer (t.ex. sträng), ignorera för uträkningen..
-            console.log(`One element (${value}) is not a number, skipping for calculation...`);
+        if (typeof value !== 'number') {  // Om ett värde inte är av datatyp nummer (t.ex. sträng), ignorera för uträkningen..
+            console.log(`\nNOTE: One element (${value}) is not a number, skipping for calculation...`);
             continue;
         }
 
@@ -55,4 +55,4 @@ let spoofList = [
 console.log("Summa för poänglista: " + calculateArraySum(pointList));
 console.log("\nSumma för ålderslista: " + calculateArraySum(ageList));
 
-console.log("\nUträkning för spoofad lista: " + calculateArraySum(spoofList) + "(testsyfte");
+console.log("\nUträkning för spoofad lista: " + calculateArraySum(spoofList) + " (testsyfte)");
