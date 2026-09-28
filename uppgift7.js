@@ -24,14 +24,35 @@ function calculateArraySum(inputArray) {
 let pointList = [
     2,
     3,
-    5
+    5,
+    2,
+    10,
+    1,
+    1
 ];
 
 let ageList = [
     5,
     5,
+    5,
+    5,
+    6,
+    3,
     11
 ];
 
+let spoofList = [
+    5,
+    "häst",
+    5,
+    "åsna",
+    6,
+    3,
+    11
+];
+
+
 console.log("Summa för poänglista: " + calculateArraySum(pointList));
 console.log("\nSumma för ålderslista: " + calculateArraySum(ageList));
+
+console.log("\nUträkning för spoofad lista: " + calculateArraySum(spoofList) + "(testsyfte");
