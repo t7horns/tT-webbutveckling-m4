@@ -40,7 +40,7 @@ let ageList = [
     3,
     11
 ];
-
+// EXTRA: Spoofed list to test conditions and validations are robust
 let spoofList = [
     5,
     "häst",
@@ -51,7 +51,7 @@ let spoofList = [
     11
 ];
 
-
+// Run calculations and present results for each list
 console.log("Summa för poänglista: " + calculateArraySum(pointList));
 console.log("\nSumma för ålderslista: " + calculateArraySum(ageList));
 
