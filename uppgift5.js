@@ -1,4 +1,5 @@
-// placeholder presentation
+// Create an array of dishes
+// Present its contents in various ways, both before and after manipulating the array.
 "use strict";
 
 let foodList = [
