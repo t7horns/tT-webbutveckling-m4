@@ -9,20 +9,29 @@ let foodList = [
     "pizza"
 ];
 
-console.log("Uppgift 5 - Script start")
+console.log("Uppgift 5 - Script start");
 
-console.log("\n1.a)")
-console.log(foodList)           // prints the full array item (data structure including values..)
+console.log("\n1.a)");
+console.log(foodList);           // prints the full array item (data structure including values..)
 
-console.log("\n1.b)")
+console.log("\n1.b)");
 for (let item of foodList) {    // loops through the list and assigns a temporary var to the active dish
-    console.log(item)           // presents the active dish (value) only, one at a time
+    console.log(item);           // presents the active dish (value) only, one at a time
 }
 
-console.log("\n2)")
-console.log(foodList[0])        // 0 == first value in array
+console.log("\n2)");
+console.log(foodList[0]);        // 0 == first value in array
 
-console.log("\n3)")
+console.log("\n3)");
 console.log(foodList[foodList.length - 1]); // length -1 is always the last value
 
-console.log("\n4)")
+console.log("\n4)");
+foodList.push("sushi");
+
+console.log("\n5)");
+foodList.shift();
+
+console.log("\n6)");
+for (let item of foodList) {
+    console.log(item);   
+}
