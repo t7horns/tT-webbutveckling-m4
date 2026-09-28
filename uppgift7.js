@@ -1,4 +1,4 @@
-// placeholder presentation
+// Create numeric lists, calculate and present their sums, and check validity
 "use strict";
 
 function calculateArraySum(inputArray) {
