@@ -26,9 +26,11 @@ console.log("\n3)");
 console.log(foodList[foodList.length - 1]); // length -1 is always the last value
 
 console.log("\n4)");
+console.log("Adding 'sushi' to the food list");
 foodList.push("sushi");
 
 console.log("\n5)");
+console.log(`Removing the first item from the food list: '${foodList[0]}'`)
 foodList.shift();
 
 console.log("\n6)");
