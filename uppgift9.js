@@ -20,3 +20,23 @@
       }
   ];
 
+function presentPerson(person) {
+    let output = null;
+
+    // Prepare output text with static information values
+    // But condition for age limit, and adapt output string thereafter.
+    if (person.age < 18) { 
+        output = `\n${person.name} bor i ${person.city} och är inte myndig.`
+    }
+    else {
+        output = `\n${person.name} bor i ${person.city} och är myndig.`
+    }
+
+    console.log(output);
+}
+
+/* Ensure that each full object class (profile)
+is used as input for the presentation function. */
+for (let person of people) {
+    presentPerson(person);
+}
