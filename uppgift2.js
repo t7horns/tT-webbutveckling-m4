@@ -10,6 +10,6 @@ let tax = 0.25; // tax (moms) is 25%
 let taxedTotalCost = totalCost + totalCost * tax; // Total cost including/with added tax
 
 console.log(`Pris: ${unitCost} ${currency}`);
-console.log(`Antal: ${unitCount} ${currency}`);
+console.log(`Antal: ${unitCount} st`);
 console.log(`Totalt: ${totalCost} ${currency}`);
 console.log(`Totalt inklusive moms: ${taxedTotalCost} ${currency}`);
