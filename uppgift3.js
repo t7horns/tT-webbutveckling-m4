@@ -5,7 +5,7 @@
 
 let age = 19;
 
-if (age > 18) {                     // Match all non-children first
+if (age >= 18) {                     // Match all non-children first
     if (age >= 65) {                // Then all non-adults
         console.log("Pensionär");   // If neither, then can only be Pensionär
     }
