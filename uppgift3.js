@@ -1,6 +1,12 @@
-// Static comparison of an age variable, utilizing a nested if-conditionedw-flowchart for age groups. 
-// Model is akin to typical process of elimination thinking 
-// (and probably more useful in more complex assingments)
+// This file now has two solutions after correction according to the assignment. 
+
+/* The orginal solution (now disabled - commented out):
+    Static comparison of age variable, using a nested if-conditioned-flowchart for age groups. 
+    (akin to typical process of elimination thinking)
+*/
+
+// -SCRIPT 1 START-
+/*
 "use strict";
 
 let age = 19;
@@ -16,5 +22,18 @@ if (age >= 18) {                     // Match all non-children first
 else {
     console.log("Barn");            // If not matching first check, default to child.
 }
+*/
+// -SCRIPT 1 END-
 
+
+/* The second solution:
+    uses if, else if , else according to the assignment.
+*/
+
+// -SCRIPT 2 START-
+"use strict";
+
+// script placeholder
+
+// -SCRIPT 2 END-
 
