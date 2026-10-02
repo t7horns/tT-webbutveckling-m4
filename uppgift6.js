@@ -1,4 +1,5 @@
-// Utilize a function to calculate and present area (width*height) based on predefined room parameters.
+// This script utilizes a function to calculate and present area (width*height) based on predefined room parameters.
+// By Mathias Thorgren, 2026
 "use strict";
 
 // Definiera funktion, mottar bredd/höjdparametrar, räknar ut och returnerar arean

@@ -1,4 +1,5 @@
-// Calculates and presents full price and tax breakdown for purchasing an item in multiples.
+// This script calculates and presents full price and tax breakdown for purchasing an item in multiples.
+// By Mathias Thorgren, 2026
 "use strict";
 
 let currency = "SEK";

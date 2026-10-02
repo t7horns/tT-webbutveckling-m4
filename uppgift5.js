@@ -1,5 +1,5 @@
-// Create an array of dishes
-// Present its contents in various ways, both before and after manipulating the array.
+// This script creates an array of dishes, then presents its contents in various ways, both before and after manipulating the array.
+// By Mathias Thorgren, 2026
 "use strict";
 
 let foodList = [

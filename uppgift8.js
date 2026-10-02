@@ -1,4 +1,5 @@
-// Create a generic book object and utilize it with a function call
+// This script creates a generic book object and utilizes it with a function call
+// By Mathias Thorgren, 2026
 "use strict";
 
 // Generic book object

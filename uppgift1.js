@@ -1,4 +1,5 @@
-// Presenterar en studentprofil
+// This script presents a student profile
+// By Mathias Thorgren, 2026
 "use strict";
 
 let firstName = "Jens";

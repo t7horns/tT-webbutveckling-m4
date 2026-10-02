@@ -1,5 +1,6 @@
-// Evaluates a detailed list of people (array containing objects for each person)
+// This script evaluates a detailed list of people (array containing objects for each person)
 // Determines for each if they are 'adult' or not, then prints the details for each person
+// By Mathias Thorgren, 2026
 "use strict";
 
   const people = [

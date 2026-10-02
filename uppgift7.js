@@ -1,4 +1,5 @@
-// Create numeric lists, calculate and present their sums, and check validity
+// This script creates numeric lists, calculates and present their sums, and checks validity
+// By Mathias Thorgren, 2026
 "use strict";
 
 function calculateArraySum(inputArray) {

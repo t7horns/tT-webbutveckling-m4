@@ -1,4 +1,5 @@
-// Print a sequence of numbers, then conditionally print only even numbers.
+// This script print a sequence of numbers, then conditionally print only even numbers.
+// By Mathias Thorgren, 2026
 "use strict";
 
 
