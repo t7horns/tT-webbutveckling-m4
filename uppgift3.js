@@ -1,3 +1,6 @@
+// This script evaluates a single age variable and prints the corresponding age group.
+// By Mathias Thorgren, 2026
+
 // This file now has two solutions after correction according to the assignment. 
 
 /* The orginal solution (now disabled - commented out):
