@@ -27,13 +27,21 @@ else {
 
 
 /* The second solution:
-    uses if, else if , else according to the assignment.
+    This solution uses if, else if & else. Excluding bottom-age range first, 
+    then top-age range and finally defaulting to the middle age range.
 */
 
 // -SCRIPT 2 START-
 "use strict";
 
-// script placeholder
+let age = 64;
 
+if (age < 18) {
+    console.log("Barn");
+} else if (age >= 65) {
+    console.log("Pensionär");
+} else {
+    console.log("Vuxen");
+}
 // -SCRIPT 2 END-
 
